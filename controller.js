@@ -1,7 +1,7 @@
 /**
  * @description:  仿门电路消息控制器，灵感来自于《数字电路设计》
  */
-define(['cCoreInherit'], function () {
+define([], function () {
 
     "use strict";
 
@@ -408,7 +408,7 @@ define(['cCoreInherit'], function () {
      * @param context
      * @returns {Controller}
      */
-    window.getController = Controller.getInstance;
+//    window.getController = Controller.getInstance;
 
     return Controller;
 });
